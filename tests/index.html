@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Clock API</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aui/9.4.3/aui/aui-prototyping.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aui/9.4.3/aui/aui-prototyping.min.js"></script>
+    <script>
+        AJS.$(document).ready(() => {
+            AJS.$('#from').datePicker({
+                overrideBrowserDefault: true,
+                dateFormat: 'MM d, yy',
+            });
+        });
+    </script>
+</head>
+<body class="aui-page-focused aui-page-size-large">
+<div id="page">
+    <section id="content" role="main">
+        <div class="aui-page-panel">
+            <div class="aui-page-panel-inner">
+                <section class="aui-page-panel-content">
+                    <h2>Example</h2>
+                    <form class="aui">
+                        <div class="field-group">
+                            <label for="from">From</label>
+                            <input class="aui-date-picker text" id="from" type="date"/>
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </section>
+</div>
+</body>
+</html>

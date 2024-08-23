@@ -1,0 +1,9 @@
+{
+  "name": "clock-api",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "@playwright/test": "1.46.1",
+    "@types/node": "22.4.0"
+  }
+}
